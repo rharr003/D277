@@ -1,0 +1,179 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff5e0;
+}
+
+footer {
+  padding: 50px;
+  background-color: #41b06e;
+}
+
+nav {
+  background-color: #141e46;
+  padding: 10px 15px;
+  margin: 0px;
+  text-align: right;
+  overflow: auto;
+  height: 130px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff5e0;
+  text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000,
+    -2px -2px 0 #000;
+  width: 100%;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+}
+.nav-link {
+  color: #fff5e0;
+  text-decoration: none;
+  margin: 0px 40px;
+  font-size: 1.4rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#nav-logo {
+  height: 125px;
+  float: left;
+}
+
+#header-banner-container {
+  margin: 0;
+  position: relative;
+}
+
+#banner-image {
+  width: 100%;
+  height: auto;
+}
+
+#main-content-container {
+  display: flex;
+}
+
+#main-content {
+  flex-basis: 75%;
+  margin: 25px;
+}
+
+#sidebar {
+  background-color: #8decb4;
+  flex-basis: 25%;
+  margin: 10px 30px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sidebar p {
+  font-size: 1.25rem;
+}
+
+.image-text {
+  margin: 0px 50px;
+  font-size: 1.5rem;
+}
+
+.table-text {
+  margin: auto;
+  font-size: 1.5rem;
+  flex-basis: 50%;
+}
+
+#sidebar h3 {
+  text-align: left;
+  font-size: 2rem;
+}
+
+#aside-list {
+  text-align: left;
+}
+
+#aside-list li {
+  margin: 10px 0px;
+}
+
+table {
+  flex-basis: 50%;
+}
+
+#contact-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  margin: 10px;
+}
+
+.form-group input,
+textarea {
+  width: 250px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+  border-width: 2px;
+  height: 100px;
+}
+
+@media screen and (max-width: 1600px) {
+  .image-text,
+  .table-text {
+    font-size: 1rem;
+    margin: 0px 25px;
+  }
+}

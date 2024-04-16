@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Welcome to Virginia</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img id="nav-logo" src="images/va.png" alt="sic semper tyranus logo" />
+        <ul class="link-container">
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="cities/richmond.html" class="nav-link">Richmond</a></li>
+          <li>
+            <a href="cities/virginia-beach.html" class="nav-link"
+              >Virginia Beach</a
+            >
+          </li>
+          <li><a href="cities/norfolk.html" class="nav-link">Norfolk</a></li>
+        </ul>
+      </nav>
+      <div id="header-banner-container">
+        <img
+          id="banner-image"
+          src="images/hombg.png"
+          alt="Virginia Love Sign"
+        />
+        <h1>Virginia is for Lovers</h1>
+      </div>
+    </header>
+    <h2>Welcome to Virginia</h2>
+    <div id="main-content-container">
+      <section id="main-content">
+        <div class="flex-container">
+          <img src="images/waterfall.jpg" height="425" />
+          <p class="image-text">
+            Virginia's natural beauty is evident in its varied landscapes, from
+            the scenic Blue Ridge Mountains in the west to the sandy shores of
+            the Atlantic Ocean in the east. Visitors can explore historic sites
+            such as Colonial Williamsburg, Monticello, and Mount Vernon, or
+            indulge in outdoor activities such as hiking along the Appalachian
+            Trail or relaxing on the beaches of Virginia Beach. No matter what
+            you're looking for in Virginia, there is something for everybody.
+          </p>
+        </div>
+      </section>
+      <aside id="sidebar">
+        <h3>Most Popular Attractions:</h3>
+        <ol id="aside-list">
+          <li>Bush Gardens</li>
+          <li>Water Country USA</li>
+          <li>Colonial Williamsburg</li>
+          <li>Mount Vernon Estate</li>
+          <li>Luray Caverns</li>
+          <li>Arlington National Cemetery</li>
+          <li>USS Wisconsin</li>
+          <li>Shenandoah National Park</li>
+          <li>Virginia Beach Boardwalk</li>
+          <li>Skyline Drive</li>
+        </ol>
+      </aside>
+    </div>
+    <footer>
+      <h3 style="text-align: center">Have a question?</h3>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input name="firstName" type="text" placeholder="John" required />
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input name="lastName" type="text" placeholder="Doe" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            name="email"
+            type="email"
+            placeholder="Jdoe@email.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="confirm-email">Confirm Email:</label>
+          <input
+            name="confirm-email"
+            type="email"
+            placeholder="Jdoe@email.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="question">Your Question</label>
+          <textarea
+            name="question"
+            type="text"
+            placeholder="Ex. Where is my tax refund?"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </footer>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
